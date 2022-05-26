@@ -1,0 +1,29 @@
+.result-count-container{
+    width : 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding : 15xp 40px;
+    font : 16px 'Shabnam FD';
+    line-height: 100%;
+}
+.result-count-container span {
+    font-size: 18px;
+    color : black;
+    font-weight: bold;
+}
+.image-list {
+    width : 100%;
+    box-sizing: border-box;
+    padding : 10px;
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(250px,1fr));
+    grid-auto-rows: 5px;
+    gap : 5px;
+}
+.image-list .image-card {
+    background-color: yellow;
+    margin-bottom: 7px;
+}
+.image-list .image-card img {
+    width : 100%;
+}
